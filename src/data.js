@@ -1,0 +1,127 @@
+
+export const sample_foods = [
+    {
+        id: '1',
+        name: 'Chicken Briyani',
+        price: 10,
+        favorite: true,
+        origins: ['south-indian'],
+        stars: 4.7,
+        imageUrl: 'food-1.avif',
+        tags: ['Lunch','Meals','Briyani','Non-veg'],
+    },
+    {
+        id: '2',
+        name: 'Dosa',
+        price: 4,
+        favorite: false,
+        origins: ['south-indian'],
+        stars: 4.4,
+        imageUrl: 'food-2.avif',
+        tags: ['Breakfast','Roast','Veg'],
+    },
+    {
+        id: '3',
+        name: 'Cheese Pizza',
+        price: 12,
+        favorite: false,
+        origins: ['italian'],
+        stars: 4.2,
+        imageUrl: 'food-3.avif',
+        tags: ['Fastfood','Lunch','Pizza','Veg'],
+    },
+    {
+        id: '4',
+        name: 'Chicken Lolipop',
+        price: 7,
+        favorite: false,
+        origins: ['south-indian'],
+        stars: 4.0,
+        imageUrl: 'food-4.avif',
+        tags: ['Deep Fry','Lunch','Non-veg'],
+    },
+    {
+        id: '5',
+        name: 'Panner Gravy',
+        price: 6,
+        favorite: true,
+        origins: ['north-indian'],
+        stars: 3.9,
+        imageUrl: 'food-5.avif',
+        tags: ['Lunch','Meals','Veg'],
+    },
+    {
+      id: '6',
+      name: 'Parota',
+      price: 2,
+      favorite: false,
+      origins: ['indian'],
+      stars: 4.5,
+      imageUrl: "food-7.jpg",
+      tags: ['Dinner','Non-veg','Veg'],
+  },
+    {
+        id: '7',
+        name: 'Noodles',
+        price: 7,
+        favorite: false,
+        origins: ['italian'],
+        stars: 3.5,
+        imageUrl: 'food-6.avif',
+        tags: ['Dinner','Fastfood','Breakfast','Non-veg'],
+    },
+    
+  {
+    id: '8',
+    name: 'Vadai',
+    price: 2,
+    favorite: true,
+    origins: ['southindian'],
+    stars: 4.0,
+    imageUrl: 'food-8.jpg',
+    tags: ['Breakfast','Veg'],
+},
+
+];
+
+export const sample_tags = [
+    {name: 'All', count: 8},
+    {name: 'Lunch', count: 4},
+    {name: 'Meals', count: 2},
+    {name: 'Fastfood', count: 2},
+    {name: 'Roast', count: 1},
+    {name: 'Breakfast', count: 3},
+    {name: 'Dinner', count: 2},
+    {name: 'Deep Fry', count: 1},
+    {name: 'Non-veg', count: 4},
+    {name: 'Veg', count: 5},
+
+];
+
+
+export const sample_users =[
+  {
+    id: 1,
+    name: 'Super Suji',
+    email: "sujithraksuper25@gmail.com",
+    password: '12345',
+    address: 'Tirupur',
+    isAdmin: true,
+  },
+  {
+    id: 2,
+    name: 'Sandy',
+    email: "sandhiyanatraj01@gmail.com",
+    password: '12345',
+    address: 'Tharapuram',
+    isAdmin: false,
+  },
+  {
+    id: 3,
+    name: 'Aiswarya',
+    email: "aiswaryaraj201@gmail.com",
+    password: '12345',
+    address: 'Kerala',
+    isAdmin: false,
+  },
+];
